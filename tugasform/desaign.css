@@ -1,0 +1,138 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(gambar/img3333.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    height: 100%;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: #fff;
+    font-size: small;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 75px;
+    margin-bottom: 20px;
+    background: rgba(46, 44, 44, 0.1);
+}
+
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7 1px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+
